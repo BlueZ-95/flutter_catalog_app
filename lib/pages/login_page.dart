@@ -25,7 +25,7 @@ class LoginPageState extends State<LoginPage> {
             setState(() {
               btnClicked = true;
             });
-            await Future.delayed(Duration(milliseconds: 200));
+            await Future.delayed(Duration(milliseconds: 300));
             Navigator.pushNamed(context, "/home");
           },
           child: AnimatedContainer(
